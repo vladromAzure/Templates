@@ -2,8 +2,6 @@
   "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "newStorageAccountName": {
-      "value": "vrstore1"
     },
     "adminUsername": {
       "value": "admin123"
@@ -17,7 +15,7 @@
     "location":{
       "value": "West Europe"
     },
-    "sizeOfDiskInGB": {
+    "sizeOfDataDiskInGB": {
       "value": "20"
     }
   }
