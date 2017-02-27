@@ -3,16 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "newStorageAccountName": {
-      "value": "myStorageAccount"
+      "value": "vrdisk1"
     },
     "adminUsername": {
       "value": "admin123"
     },
     "adminPassword": {
-      "value": "ADmin123_!"
+      "value": "Passw0rd!"
     },
     "dnsNameForPublicIP": {
-      "value": "myDnsName"
+      "value": "vr0000"
+    },
+    "location":{
+      "value": "West Europe"
+    },
+    "sizeOfDiskInGB": {
+      "value": "20"
     }
   }
 }
